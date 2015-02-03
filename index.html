@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Android Market Search Demo</title>
+	<base href="/">
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="/css/application.css">
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
+	<script src="/js/jquery-2.1.3.min.js"></script>
+	<script src="/js/application.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1 class="hero text-center">Android Market Search Demo</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<input type="text" id="search" class="input-lg form-control" placeholder="Search app name, developer, description, or package name&hellip;">
+		</div>
+		<div class="col-md-6">
+			<select id="sort" class="input-lg form-control">
+				<option>(Select Order)</option>
+				<optgroup label="Ascending">
+					<option value="byDeveloper.asc">Developer (Asc)</option>
+					<option value="byDownloads.asc">Downloads (Asc)</option>
+					<option value="byTitle.asc">Title (Asc)</option>
+				</optgroup>
+				<optgroup label="Descending">
+					<option value="byDeveloper.desc">Developer (Desc)</option>
+					<option value="byDownloads.desc">Downloads (Desc)</option>
+					<option value="byTitle.desc">Title (Desc)</option>
+				</optgroup>
+			</select>
+
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="alert" id="status" style="margin-top:20px;">Loading...</div>
+		</div>
+	</div>
+	<div class="row" id="results">
+	</div>
+</div>
+</body>
+</html>
