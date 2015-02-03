@@ -5,7 +5,7 @@ Android Search Webapp
 Just clone the repository into a `project` directory.
 
 	cd /path/to/root
-	git clone git@github.com:yectep/androidsearch.git project
+	git clone git@github.com:yectep/playstoresearch.git project
 
 # Run
 Use Mac OS X's preinstalled **python** `SimpleHTTPServer`
@@ -13,7 +13,7 @@ Use Mac OS X's preinstalled **python** `SimpleHTTPServer`
 	cd /path/to/root/project
 	python -m SimpleHTTPServer
 
-Then go to http://localhost:8000 to run.
+Then go to [http://localhost:8000](http://localhost:8000) to run.
 
 # Notes
 
